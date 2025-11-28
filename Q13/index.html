@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive DOM Manipulation</title>
+  <style>
+    #myDiv {
+      width: 300px;
+      height: 150px;
+      border: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h2>DOM Manipulation Task</h2>
+
+  <!-- Input for color -->
+  <input type="text" id="colorInput" placeholder="Enter a color name">
+  <button id="bgBtn">Change Background</button>
+  <br><br>
+
+  <!-- Input for text -->
+  <input type="text" id="textInput" placeholder="Enter new text">
+  <button id="textBtn">Update Text</button>
+  <br><br>
+
+  <!-- Div with initial content -->
+  <div id="myDiv">This is the initial text.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
